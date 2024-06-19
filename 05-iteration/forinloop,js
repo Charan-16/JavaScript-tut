@@ -1,0 +1,14 @@
+const myObject = {
+    js: 'Javascript',
+    cpp: 'C++',
+    rb: "Ruby",
+    swift: "swift by apple"
+}
+
+for (const key in myObject) {
+
+    console.log(`${key} Shortcut is for ${myObject[key]}`)
+
+}
+
+// for in loop will not work in Array
